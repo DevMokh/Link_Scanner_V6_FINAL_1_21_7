@@ -1,0 +1,218 @@
+[
+  {
+    "id": "url-001",
+    "url": "https://paypal-security.example/signin",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-002",
+    "url": "https://google-account.example/verify",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-003",
+    "url": "https://amazon-login.example/password",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-004",
+    "url": "https://microsoft-verify.example/login",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-005",
+    "url": "https://facebook-support.example/confirm",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-006",
+    "url": "https://instagram-account.example/signin",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-007",
+    "url": "https://vodafone-egypt.example/verify",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-008",
+    "url": "https://binance-wallet.example/login",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-009",
+    "url": "https://googleaccount.example/login",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-010",
+    "url": "https://paypalaccount.example/secure",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-011",
+    "url": "https://googel-login.example/signin",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-012",
+    "url": "https://paypa1-security.example/login",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-013",
+    "url": "https://paypal.com.evil.example/login",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-014",
+    "url": "https://nbe-secure-login.top/verify",
+    "expected_threat": true,
+    "category": "brand-host"
+  },
+  {
+    "id": "url-015",
+    "url": "https://evil.example/раураl/login",
+    "expected_threat": true,
+    "category": "brand-path"
+  },
+  {
+    "id": "url-016",
+    "url": "https://evil.example/gοοgle/login",
+    "expected_threat": true,
+    "category": "brand-path"
+  },
+  {
+    "id": "url-017",
+    "url": "https://فودافون-كاش.example/تسجيل-الدخول",
+    "expected_threat": true,
+    "category": "brand-path"
+  },
+  {
+    "id": "url-018",
+    "url": "https://انستاباي-تحديث.example/تأكيد",
+    "expected_threat": true,
+    "category": "brand-path"
+  },
+  {
+    "id": "url-019",
+    "url": "https://www.google.com/search?q=paypal",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-020",
+    "url": "https://www.paypal.com/myaccount/summary",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-021",
+    "url": "https://support.apple.com/ar-eg",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-022",
+    "url": "https://www.bbc.com/news/facebook-account-changes",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-023",
+    "url": "https://medium.com/@x/why-paypal-won",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-024",
+    "url": "https://apple-pie-recipes.com/best",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-025",
+    "url": "https://evil.example/notpaypalish/login",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-026",
+    "url": "https://example.com/مرحبا/login",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-027",
+    "url": "https://paypalish.example/article",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-028",
+    "url": "https://googley.example/news",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-029",
+    "url": "https://applepie.example/recipe",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-030",
+    "url": "https://brandless.example/reference/paypal",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-031",
+    "url": "https://docs.example/article?q=google-account",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-032",
+    "url": "https://example.com/فوري/مقال-اخباري",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-033",
+    "url": "https://example.com/خبر-عن-فودافون-بدون-تسجيل",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-034",
+    "url": "https://example.com/تحديث-اتصالات-الطرق",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-035",
+    "url": "https://example.com/طلب-دفع-اورنج-في-مقال",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  },
+  {
+    "id": "url-036",
+    "url": "https://www.amazon.eg/gp/help/customer/display.html",
+    "expected_threat": false,
+    "category": "benign-or-ambiguous"
+  }
+]
